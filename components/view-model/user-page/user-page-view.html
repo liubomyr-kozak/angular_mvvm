@@ -1,0 +1,30 @@
+<div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+        <div class="row">
+          <img src="{{user.image}}" class="img-thumbnail" alt=""/>
+          <br>
+          {{user.descpritions.name}} {{user.descpritions.surename}}
+          <br>
+          <br>
+          best comnnunity: {{user.descpritions.bestCommunity}}
+          <br>
+          best program leng: {{user.descpritions.leng}}
+
+        </div>
+
+        <div class="row">
+
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div ng-repeat="item in menu" menu-access ng-show="evaluatedAccess" class="{{item.icon}} menu-item"><span class="menu-title">{{item.title}}</span></div>
+      </div>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "name": "MVVM Angular",
+  "version": "0.0.0",
+  "authors": [
+    "Pacefist <kozak_lubomur@ukr.net>"
+  ],
+  "directory": " ./lib/bower_components",
+   "dependencies": {
+    "angular": "*",
+    "angular-md5": "*",
+    "bootstrap": "*",
+    "jquery": "*",
+    "font-awesome":"*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

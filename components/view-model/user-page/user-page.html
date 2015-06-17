@@ -1,0 +1,21 @@
+<div ng-controller="userPageCtrl">
+
+  <user-page-model>
+
+    <user-info>
+      <user-image image-url="{{image_url}}"/>
+      <user-descriptions/>
+    </user-info>
+
+    <menu>
+      <menu-item title="excel" icon="fa fa-file-excel-o" access="true"></menu-item>
+      <menu-item title="video" icon="fa fa-file-video-o" access="false"></menu-item>
+      <menu-item title="word" icon="fa fa-file-word-o" access="true"></menu-item>
+      <menu-item title="base" access="true"></menu-item>
+    </menu>
+
+    <user-page-view/>
+  </user-page-model>
+</div>
+
+

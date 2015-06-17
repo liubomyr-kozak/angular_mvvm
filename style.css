@@ -1,0 +1,21 @@
+.menu-title{
+  position: absolute;
+  bottom: 11px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.menu-item{
+  padding: 33px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  position: relative;
+  margin: 0 5px;
+  background-color: #EC8F35;
+  color: #fff;
+  border-radius: 5px;
+}
+.menu-item:before{
+  font-size: 35px;
+}

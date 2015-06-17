@@ -1,0 +1,10 @@
+{
+  "name": "MVVM Angular",
+  "version": "0.0.0",
+  "main": "server.js",
+  "author": "Pacefist",
+  "dependencies": {
+    "connect": "*",
+    "serve-static": "*"
+  }
+}
